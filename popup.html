@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+    <title>Background Page</title>
+</head>
+<body>
+<div style="width:100px;height:200px"></div>
+    Google Privacy Helper! Yah Yah
+<script>
+    chrome.tabs.executeScript(null, {file:"jquery.min.js"}, function() {
+        chrome.tabs.executeScript(null, {file:"content.js"});
+    });
+</script>
+</body>
+</html>
