@@ -3,7 +3,7 @@ Stop Google Tracking
 
 Stop Google Tracking is a Chrome Extension
 
-  - Install the .crx file to chrome to enable.
+  - Install the .crx file to chrome to enable. Drag .crx file into chrome to install. Enable developer mode on extensions if that doesn't work.
   - Will parse Google.com to remove all known outbound tracking on search results.
   - This is meant to be used in combination with Ghostery and Ad Block plus
   - Obviously not available on Chrome store
