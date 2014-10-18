@@ -3,7 +3,7 @@ Stop Google Tracking
 
 Stop Google Tracking is a Chrome Extension that removes outbound tracking code from Google.
 This means that it will be more difficult to track outbound link performance.
-Also, this speeds up browsing because one doesn't need to goto Google before going to the page they want too!
+Also, this speeds up browsing because one doesn't need to goto Google before going to the page they want to!
 
   - Install the .crx file to chrome to enable. Drag .crx file into chrome to install. Enable developer mode on extensions if that doesn't work.
   - Will parse Google.com to remove all known outbound tracking on search results.
