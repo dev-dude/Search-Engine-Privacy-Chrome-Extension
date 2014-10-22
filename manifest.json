@@ -12,7 +12,7 @@
     }],
     "background_page": "background.html",
     "permissions": [
-        "tabs", "http://*/*"
+        "tabs", "http://*/*","webRequest", "webRequestBlocking"
     ],
     "background": {
         "scripts": ["content.js"]
