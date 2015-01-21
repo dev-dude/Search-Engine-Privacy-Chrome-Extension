@@ -1,6 +1,5 @@
-/******* Google Remove Tracking ******/
-var self = this;
-var randomIeVersion = ['MSIE 11.0','MSIE 10.0','MSIE 9.0','MSIE 8.0'],
+var self = this,
+    randomIeVersion = ['MSIE 11.0','MSIE 10.0','MSIE 9.0','MSIE 8.0'],
     randomWindowsVersion = ['Windows NT 6.1','Windows NT 5.1','Windows NT 6.2'],
     not64 = ['WOW64;',''],
     randomRV = ['9.0.1','11.0','18.0','19.0','29.0','1.8.1.20','1.9.0.10'],

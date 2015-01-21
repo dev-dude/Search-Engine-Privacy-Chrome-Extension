@@ -8,7 +8,7 @@
     chrome.webRequest.onBeforeSendHeaders.addListener(
             function(info) {
                 // Replace the User-Agent header
-                alert('here');
+                // alert('here');
                 var headers = info.requestHeaders;
                 headers.forEach(function(header, i) {
                     if (header.name.toLowerCase() == 'user-agent') {
