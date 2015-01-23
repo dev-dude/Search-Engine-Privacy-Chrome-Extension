@@ -85,11 +85,12 @@ function getAllLinks() {
 }
 
 $(document).ready(function() {
-    if (document.location.href.indexOf('google') !== -1) {
-        window.googInterval = false;
-        if (!window.googInterval) {
+    // Change to desired search engine
+    if (document.location.href.indexOf('duck') !== -1) {
+        window.checkInterval = false;
+        if (!window.checkInterval) {
             console.log('sanitizedLinks');
-            googInterval = setInterval(function () {
+            checkInterval = setInterval(function () {
                 if (document.getElementById('rso')) {
                     if (document.getElementById('rso').children.length > 2) {
                         getAllLinks();
